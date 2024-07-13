@@ -1,5 +1,9 @@
-#obj files
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.GeneratedMSBuildEditorConfig.editorconfig
-TransactionsAPI/obj/project.assets.json
 TransactionsAPI/obj/project.assets.json
 TransactionsAPI/obj/project.nuget.cache
+TransactionsAPI/obj/TransactionsAPI.csproj.nuget.dgspec.json
+TransactionsAPI/obj/TransactionsAPI.csproj.nuget.g.props
+TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfo.cs
+TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfoInputs.cache
+TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.assets.cache
+TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.csproj.AssemblyReference.cache
+TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.GeneratedMSBuildEditorConfig.editorconfig
