@@ -1,4 +1,6 @@
-﻿namespace TransactionsAPI.DAL
+﻿using TransactionsAPI.DataModels;
+
+namespace TransactionsAPI.DAL
 {
     public class TransactionDbContext : DbContext
     {

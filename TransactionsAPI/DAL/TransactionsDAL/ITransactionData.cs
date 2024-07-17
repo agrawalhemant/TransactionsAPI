@@ -1,15 +1,17 @@
-﻿using TransactionsAPI.ViewModels;
+﻿using TransactionsAPI.DataModels;
 
-namespace TransactionsAPI.DAL.TransactionDAL
+namespace TransactionsAPI.DAL.TransactionsDAL
 {
     public interface ITransactionData
     {
-        Task<List<TransactionDto>> GetAllTransactions();
+        Task<List<Transaction>> GetAllTransactions();
+        Task<List<Transaction>> GetTransactionsByIds(List<int> transactionIds);
+        Task<List<Transaction>> GetAllTransactions(Guid profileId);
         Task<Transaction> GetTransactionById(int transactionId);
-        Task CreateTransaction(TransactionDto transaction);
+        Task CreateTransaction(Transaction transaction);
         Task<bool> DeleteTransaction(int transactionId);
-        Task<List<int>> DeleteAllTransactions(List<int> transactionIds);
-        Task UpdateTransaction(TransactionDto transaction);
-        Task PatchTransaction(TransactionDto transaction);
+        Task<bool> DeleteAllTransactions(List<int> transactionIds);
+        Task<bool> UpdateTransaction(Transaction transaction);
+        Task PatchTransaction(Transaction transaction);
     }
 }

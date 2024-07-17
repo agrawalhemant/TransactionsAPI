@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TransactionsAPI.DAL;
+using TransactionsAPI.DataModels;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,7 +17,8 @@ namespace TransactionsAPI.Controllers
         }
         // GET: api/<TransactionsController>
         [HttpGet]
-        public ActionResult<List<Transaction>> Get()
+        [Produces(typeof(List<Transaction>))]
+        public IActionResult Get()
         {
             try
             {

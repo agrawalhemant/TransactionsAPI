@@ -10,11 +10,13 @@ public class Profile
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int id { get; set; }
+    public Guid id { get; set; }
 
-    public string? name { get; set; }
+    [Required]
+    public string name { get; set; }
 
-    public string? email { get; set; }
+    [Required]
+    public string email { get; set; }
 
     public string? img { get; set; }
 

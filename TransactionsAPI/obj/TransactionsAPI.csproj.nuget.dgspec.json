@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj": {}
+    "E:\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj": {
+    "E:\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
+        "projectUniqueName": "E:\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
         "projectName": "TransactionsAPI",
-        "projectPath": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
-        "packagesPath": "C:\\Users\\hemant.agrawal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\obj\\",
+        "projectPath": "E:\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
+        "packagesPath": "C:\\Users\\Hemant\\.nuget\\packages\\",
+        "outputPath": "E:\\TransactionsAPI\\TransactionsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hemant.agrawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hemant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://livecareernuget.azurewebsites.net/nuget/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -81,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,7 +11,7 @@ public class Transaction
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int tid { get; set; }
 
-    public int profileid { get; set; }
+    public Guid profileid { get; set; }
 
     public string? name { get; set; }
 
