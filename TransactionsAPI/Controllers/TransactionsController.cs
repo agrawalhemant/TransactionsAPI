@@ -15,7 +15,7 @@ namespace TransactionsAPI.Controllers
         {
             _context = context;
         }
-        // GET: api/<TransactionsController>
+
         [HttpGet]
         [Produces(typeof(List<Transaction>))]
         public IActionResult Get()
@@ -31,7 +31,6 @@ namespace TransactionsAPI.Controllers
             }
         }
 
-        // GET api/<TransactionsController>/5
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
@@ -39,7 +38,6 @@ namespace TransactionsAPI.Controllers
             return Ok(res);
         }
 
-        // POST api/<TransactionsController>
         [HttpPost]
         public ActionResult Post([FromBody] Transaction transaction)
         {
@@ -48,13 +46,11 @@ namespace TransactionsAPI.Controllers
             return Ok("transaction is saved");
         }
 
-        // PUT api/<TransactionsController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/<TransactionsController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

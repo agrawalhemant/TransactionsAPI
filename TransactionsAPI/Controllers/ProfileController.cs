@@ -17,7 +17,7 @@ namespace TransactionsAPI.Controllers
         /// <summary>
         /// Create new profile (only name and email are mandatory fields)
         /// </summary>
-        /// <param name="profileDto"></param>
+        /// <param name="profileDto">profileDto</param>
         /// <returns></returns>
         [HttpPost("create")]
         [Produces(typeof(Guid))]
@@ -40,7 +40,7 @@ namespace TransactionsAPI.Controllers
         /// <summary>
         /// Get the profile details
         /// </summary>
-        /// <param name="profileId"></param>
+        /// <param name="profileId">profileId</param>
         /// <returns></returns>
         [HttpGet]
         [Produces(typeof(ProfileDto))]
@@ -62,6 +62,11 @@ namespace TransactionsAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Update profile
+        /// </summary>
+        /// <param name="profile">profile</param>
+        /// <returns></returns>
         [HttpPut]
         [Produces(typeof(bool))]
         public async Task<IActionResult> UpdateProfileAsync(ProfileDto profile)
@@ -84,6 +89,11 @@ namespace TransactionsAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete profile
+        /// </summary>
+        /// <param name="profileId">profileId</param>
+        /// <returns></returns>
         [HttpDelete]
         [Produces(typeof(bool))]
         public async Task<IActionResult> DeleteProfileAsync(Guid profileId)

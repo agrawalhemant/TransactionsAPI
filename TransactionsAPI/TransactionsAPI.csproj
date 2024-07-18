@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\hemant.agrawal\source\repos\TransactionsAPI\TransactionsAPI\bin\Debug\net8.0\Swagger\TransactionsAPI.Service.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

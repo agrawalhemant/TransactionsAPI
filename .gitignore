@@ -42,3 +42,9 @@ TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.GeneratedMSBuildEditorConfig.ed
 /TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.genruntimeconfig.cache
 /TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.pdb
 /TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.sourcelink.json
+/.vs/ProjectEvaluation/transactionsapi.strings.v8.bin
+/.vs/TransactionsAPI/DesignTimeBuild/.dtbcache.v2
+/.vs/TransactionsAPI/v17/.futdcache.v2
+*.json
+*.xml
+/TransactionsAPI/bin/Debug/net8.0/appsettings.json
