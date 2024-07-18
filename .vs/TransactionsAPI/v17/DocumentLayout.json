@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\swagger\\transactionsapi.service.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\swagger\\transactionsapi.service.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\transactionsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\transactionsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\process\\profileprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\process\\profileprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|c:\\users\\hemant.agrawal\\source\\repos\\transactionsapi\\transactionsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B0D1407-5B40-41A4-B539-E2F9E5B0FAC0}|TransactionsAPI\\TransactionsAPI.csproj|solutionrelative:transactionsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionsAPI.Service.xml",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml",
+              "RelativeDocumentMoniker": "TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml",
+              "RelativeToolTip": "TransactionsAPI\\bin\\Debug\\net8.0\\Swagger\\TransactionsAPI.Service.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-18T11:40:25.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionsAPI.Service.xml",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Swagger\\TransactionsAPI.Service.xml",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Swagger\\TransactionsAPI.Service.xml",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Swagger\\TransactionsAPI.Service.xml",
+              "RelativeToolTip": "TransactionsAPI\\Swagger\\TransactionsAPI.Service.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-18T11:37:35.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsAPI",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
+              "RelativeDocumentMoniker": "TransactionsAPI\\TransactionsAPI.csproj",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\TransactionsAPI.csproj",
+              "RelativeToolTip": "TransactionsAPI\\TransactionsAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-18T11:36:42.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "TransactionsAPI\\Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T08:56:11.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Program.cs",
+              "RelativeToolTip": "TransactionsAPI\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T05:46:55.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TransactionsAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\appsettings.json",
+              "RelativeToolTip": "TransactionsAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T04:52:38.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProfileProcess.cs",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Process\\ProfileProcess.cs",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Process\\ProfileProcess.cs",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Process\\ProfileProcess.cs",
+              "RelativeToolTip": "TransactionsAPI\\Process\\ProfileProcess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T04:33:19.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TransactionsAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T18:02:59.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "TransactionsAPI\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\hemant.agrawal\\source\\repos\\TransactionsAPI\\TransactionsAPI\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "TransactionsAPI\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwGAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:58:13.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

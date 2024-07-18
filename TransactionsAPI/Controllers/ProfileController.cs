@@ -96,7 +96,7 @@ namespace TransactionsAPI.Controllers
         /// <returns></returns>
         [HttpDelete]
         [Produces(typeof(bool))]
-        public async Task<IActionResult> DeleteProfileAsync(Guid profileId)
+        public async Task<IActionResult> DeleteProfileAsync([Required] Guid profileId)
         {
             try
             {

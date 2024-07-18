@@ -16,6 +16,10 @@ namespace TransactionsAPI.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Get all transactions of all profiles
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Produces(typeof(List<Transaction>))]
         public IActionResult Get()
@@ -31,10 +35,15 @@ namespace TransactionsAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get transaction details
+        /// </summary>
+        /// <param name="transactionId">transactionId</param>
+        /// <returns></returns>
         [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        public ActionResult Get([FromQuery] int transactionId)
         {
-            var res = _context.Transaction.Where(x => x.tid == id).FirstOrDefault();
+            var res = _context.Transaction.Where(x => x.tid == transactionId).FirstOrDefault();
             return Ok(res);
         }
 
