@@ -40,9 +40,10 @@ namespace TransactionsAPI.Controllers
         /// </summary>
         /// <param name="transactionId">transactionId</param>
         /// <returns></returns>
-        [HttpGet("{id}")]
-        public ActionResult Get([FromQuery] int transactionId)
+        [HttpGet("{profileId}")]
+        public ActionResult GetDetails()
         {
+            int transactionId = 0;
             var res = _context.Transaction.Where(x => x.tid == transactionId).FirstOrDefault();
             return Ok(res);
         }
