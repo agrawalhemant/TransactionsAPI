@@ -41,13 +41,13 @@ namespace TransactionsAPI.DAL.ProfilesDAL
                 }
                 _context.Remove(prf);
                 await _context.SaveChangesAsync();
-                txn.CommitTransactionAsync();
+                await txn.CommitTransactionAsync();
                 return true;
 
             }
             catch (Exception)
             {
-                txn.RollbackTransactionAsync();
+                await txn.RollbackTransactionAsync();
                 throw;
             }
         }

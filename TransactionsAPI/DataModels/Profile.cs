@@ -20,7 +20,7 @@ public class Profile
 
     public string? img { get; set; }
 
-    public DateTime created_at { get; set; } = DateTime.Now;
+    public DateTime? created_at { get; set; } = DateTime.Now;
 
-    public DateTime updated_at { get; set; } = DateTime.Now;
+    public DateTime? updated_at { get; set; } = DateTime.Now;
 }

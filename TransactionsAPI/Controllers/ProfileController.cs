@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using TransactionsAPI.DataModels;
 using TransactionsAPI.Process;
 using TransactionsAPI.ViewModels;
 
@@ -21,7 +22,7 @@ namespace TransactionsAPI.Controllers
         /// <returns></returns>
         [HttpPost("create")]
         [Produces(typeof(Guid))]
-        public async Task<IActionResult> CreateProfileAsync([FromBody] ProfileDto profileDto)
+        public async Task<IActionResult> CreateProfileAsync([FromBody] InputProfileDto profileDto)
         {
             if(profileDto is null || string.IsNullOrWhiteSpace(profileDto.UserName) || string.IsNullOrWhiteSpace(profileDto.Email))
             {
@@ -40,15 +41,15 @@ namespace TransactionsAPI.Controllers
         /// <summary>
         /// Get the profile details
         /// </summary>
-        /// <param name="profileId">profileId</param>
+        /// <param name="profileId"></param>
         /// <returns></returns>
         [HttpGet]
-        [Produces(typeof(ProfileDto))]
+        [Produces(typeof(InputProfileDto))]
         public async Task<IActionResult> GetProfileAsync([Required] Guid profileId)
         {            
             try
             {
-                ProfileDto prf = null;
+                Profile prf = null;
                 prf = await _profileProcess.GetProfileAsync(profileId);
                 if (prf is null)
                 {
@@ -69,7 +70,7 @@ namespace TransactionsAPI.Controllers
         /// <returns></returns>
         [HttpPut]
         [Produces(typeof(bool))]
-        public async Task<IActionResult> UpdateProfileAsync(ProfileDto profile)
+        public async Task<IActionResult> UpdateProfileAsync(Profile profile)
         {
             try
             {

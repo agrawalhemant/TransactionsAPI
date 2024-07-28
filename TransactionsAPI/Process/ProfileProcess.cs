@@ -11,7 +11,7 @@ namespace TransactionsAPI.Process
         {
             _profileData = profileData;
         }
-        public async Task<Guid> CreateProfileAsync(ProfileDto profile)
+        public async Task<Guid> CreateProfileAsync(InputProfileDto profile)
         {
             Profile prf = new Profile()
             {
@@ -29,33 +29,14 @@ namespace TransactionsAPI.Process
             return await _profileData.DeleteProfileAsync(profileId);
         }
 
-        public async Task<ProfileDto> GetProfileAsync(Guid profileId)
+        public async Task<Profile> GetProfileAsync(Guid profileId)
         {
-            var prf = await _profileData.GetProfileAsync(profileId);
-            if(prf is null)
-            {
-                return null;
-            }
-            ProfileDto profile = new ProfileDto()
-            {
-                ProfileId = prf.id,
-                UserName = prf.name,
-                Email = prf.email,
-                ProfileImg = prf.img
-            };
-            return profile;
+            return await _profileData.GetProfileAsync(profileId);
         }
 
-        public async Task<bool> UpdateProfileAsync(ProfileDto profile)
+        public async Task<bool> UpdateProfileAsync(Profile profile)
         {
-            Profile prf = new Profile()
-            {
-                id = profile.ProfileId,
-                name = profile.UserName,
-                email = profile.Email,
-                img = profile.ProfileImg
-            };
-            return await _profileData.UpdateProfileAsync(prf);
+            return await _profileData.UpdateProfileAsync(profile);
         }
     }
 }

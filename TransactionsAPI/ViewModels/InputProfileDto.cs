@@ -1,9 +1,7 @@
 ﻿namespace TransactionsAPI.ViewModels
 {
-    public class ProfileDto
+    public class InputProfileDto
     {
-        public Guid ProfileId { get; set; }
-
         public string UserName { get; set; }
 
         public string Email { get; set; }
