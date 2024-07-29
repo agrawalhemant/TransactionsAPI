@@ -9,7 +9,7 @@ namespace TransactionsAPI.DAL
             
         }
         public DbSet<Transaction> Transaction { get; set; }
-        public DbSet<Profile> Profile { get; set; }
+        public DbSet<Profiles> Profile { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    modelBuilder.Entity<Transaction>()

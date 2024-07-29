@@ -4,9 +4,9 @@ namespace TransactionsAPI.DAL.ProfilesDAL
 {
     public interface IProfileData
     {
-        Task<Guid> CreateProfileAsync(Profile profile);
-        Task<Profile> GetProfileAsync(Guid profileId);
-        Task<bool> UpdateProfileAsync(Profile profile);
+        Task<Guid> CreateProfileAsync(Profiles profile);
+        Task<Profiles> GetProfileAsync(Guid profileId);
+        Task<bool> UpdateProfileAsync(Profiles profile);
         Task<bool> DeleteProfileAsync(Guid profileId);
     }
 }

@@ -44,12 +44,12 @@ namespace TransactionsAPI.Controllers
         /// <param name="profileId"></param>
         /// <returns></returns>
         [HttpGet]
-        [Produces(typeof(InputProfileDto))]
+        [Produces(typeof(Profiles))]
         public async Task<IActionResult> GetProfileAsync([Required] Guid profileId)
         {            
             try
             {
-                Profile prf = null;
+                Profiles prf = null;
                 prf = await _profileProcess.GetProfileAsync(profileId);
                 if (prf is null)
                 {
@@ -70,7 +70,7 @@ namespace TransactionsAPI.Controllers
         /// <returns></returns>
         [HttpPut]
         [Produces(typeof(bool))]
-        public async Task<IActionResult> UpdateProfileAsync(Profile profile)
+        public async Task<IActionResult> UpdateProfileAsync(Profiles profile)
         {
             try
             {

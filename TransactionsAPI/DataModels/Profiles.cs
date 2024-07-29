@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace TransactionsAPI.DataModels;
 
 [Table(name: "profiles")]
-public class Profile
+public class Profiles
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

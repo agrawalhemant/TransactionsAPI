@@ -1,4 +1,5 @@
-﻿using TransactionsAPI.DAL.ProfilesDAL;
+﻿using AutoMapper;
+using TransactionsAPI.DAL.ProfilesDAL;
 using TransactionsAPI.DataModels;
 using TransactionsAPI.ViewModels;
 
@@ -7,13 +8,16 @@ namespace TransactionsAPI.Process
     public class ProfileProcess : IProfileProcess
     {
         private readonly IProfileData _profileData;
-        public ProfileProcess(IProfileData profileData)
+        private readonly IMapper _mapper;
+        public ProfileProcess(IProfileData profileData, IMapper mapper)
         {
             _profileData = profileData;
+            _mapper = mapper;
         }
         public async Task<Guid> CreateProfileAsync(InputProfileDto profile)
         {
-            Profile prf = new Profile()
+            var prf1 = _mapper.Map<Profiles>(profile);
+            Profiles prf = new Profiles()
             {
                 name = profile.UserName,
                 email = profile.Email,
@@ -29,12 +33,12 @@ namespace TransactionsAPI.Process
             return await _profileData.DeleteProfileAsync(profileId);
         }
 
-        public async Task<Profile> GetProfileAsync(Guid profileId)
+        public async Task<Profiles> GetProfileAsync(Guid profileId)
         {
             return await _profileData.GetProfileAsync(profileId);
         }
 
-        public async Task<bool> UpdateProfileAsync(Profile profile)
+        public async Task<bool> UpdateProfileAsync(Profiles profile)
         {
             return await _profileData.UpdateProfileAsync(profile);
         }

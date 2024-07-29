@@ -6,8 +6,8 @@ namespace TransactionsAPI.Process
     public interface IProfileProcess
     {
         Task<Guid> CreateProfileAsync(InputProfileDto profile);
-        Task<Profile> GetProfileAsync(Guid profileId);
-        Task<bool> UpdateProfileAsync(Profile profile);
+        Task<Profiles> GetProfileAsync(Guid profileId);
+        Task<bool> UpdateProfileAsync(Profiles profile);
         Task<bool> DeleteProfileAsync(Guid profileId);
     }
 }

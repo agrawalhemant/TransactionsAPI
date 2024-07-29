@@ -3,7 +3,7 @@ using TransactionsAPI.Process;
 using TransactionsAPI.DAL;
 using TransactionsAPI.DAL.TransactionsDAL;
 using TransactionsAPI.DAL.ProfilesDAL;
-using System.Xml;
+using AutoMapper;
 
 namespace TransactionsAPI
 {
@@ -34,6 +34,16 @@ namespace TransactionsAPI
             builder.Services.AddScoped<ITransactionData, TransactionData>();
             builder.Services.AddScoped<IProfileProcess, ProfileProcess>();
             builder.Services.AddScoped<ITransactionProcess, TransactionProcess>();
+
+            //#region Automapper
+            //var mapperConfig = new MapperConfiguration(mc =>
+            //{
+            //    mc.AddProfile(new AutoMapperProfile());
+            //});
+            //IMapper mapper = mapperConfig.CreateMapper();
+            //builder.Services.AddSingleton(mapper);
+            //#endregion Automapper
+            builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

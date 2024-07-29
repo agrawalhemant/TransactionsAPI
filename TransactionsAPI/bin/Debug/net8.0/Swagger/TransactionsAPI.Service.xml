@@ -18,7 +18,7 @@
             <param name="profileId"></param>
             <returns></returns>
         </member>
-        <member name="M:TransactionsAPI.Controllers.ProfileController.UpdateProfileAsync(TransactionsAPI.DataModels.Profile)">
+        <member name="M:TransactionsAPI.Controllers.ProfileController.UpdateProfileAsync(TransactionsAPI.DataModels.Profiles)">
             <summary>
             Update profile
             </summary>

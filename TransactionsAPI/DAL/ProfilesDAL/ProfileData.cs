@@ -10,7 +10,7 @@ namespace TransactionsAPI.DAL.ProfilesDAL
         {
             _context = context;
         }
-        public async Task<Guid> CreateProfileAsync(Profile profile)
+        public async Task<Guid> CreateProfileAsync(Profiles profile)
         {
             var txn = _context.Database;
             try
@@ -52,7 +52,7 @@ namespace TransactionsAPI.DAL.ProfilesDAL
             }
         }
 
-        public async Task<Profile> GetProfileAsync(Guid profileId)
+        public async Task<Profiles> GetProfileAsync(Guid profileId)
         {
             try
             {
@@ -64,7 +64,7 @@ namespace TransactionsAPI.DAL.ProfilesDAL
             }
         }
 
-        public async Task<bool> UpdateProfileAsync(Profile profile)
+        public async Task<bool> UpdateProfileAsync(Profiles profile)
         {
             var txn = _context.Database;
             try
