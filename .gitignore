@@ -1,47 +1,61 @@
-TransactionsAPI/obj/project.assets.json
-TransactionsAPI/obj/project.nuget.cache
-TransactionsAPI/obj/TransactionsAPI.csproj.nuget.dgspec.json
-TransactionsAPI/obj/TransactionsAPI.csproj.nuget.g.props
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfo.cs
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfoInputs.cache
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.assets.cache
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.csproj.AssemblyReference.cache
-TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.GeneratedMSBuildEditorConfig.editorconfig
-/.vs/TransactionsAPI/v17/.suo
-*.vsidx
-/.vs/ProjectEvaluation/transactionsapi.metadata.v8.bin
-/.vs/ProjectEvaluation/transactionsapi.projects.v8.bin
-/.vs/ProjectEvaluation/transactionsapi.metadata.v8.bin
-/.vs/ProjectEvaluation/transactionsapi.projects.v8.bin
-/.vs/TransactionsAPI/v17/.suo
-/TransactionsAPI/obj/project.assets.json
-/TransactionsAPI/obj/project.nuget.cache
-/TransactionsAPI/obj/TransactionsAPI.csproj.nuget.dgspec.json
-/TransactionsAPI/obj/TransactionsAPI.csproj.nuget.g.props
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfo.cs
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.AssemblyInfoInputs.cache
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.assets.cache
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.csproj.AssemblyReference.cache
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.GeneratedMSBuildEditorConfig.editorconfig
-*.wsuo
-/.vs/TransactionsAPI/FileContentIndex/038f98f6-2ea0-4be1-8891-afc10df43871.vsidx
-/.vs/TransactionsAPI/FileContentIndex/1a4925a1-a9fb-4527-8ef9-9f7d35484150.vsidx
-/.vs/TransactionsAPI/FileContentIndex/23f18320-a26f-4959-a727-da7e56605a24.vsidx
-/.vs/TransactionsAPI/FileContentIndex/ad4014da-3d85-4578-9c0d-bbfdc7abc00c.vsidx
-/.vs/TransactionsAPI/FileContentIndex/cb4bf684-056e-4093-a782-7ffe3ed3c582.vsidx
-/TransactionsAPI/bin/Debug/net8.0/TransactionsAPI.dll
-/TransactionsAPI/bin/Debug/net8.0/TransactionsAPI.exe
-/TransactionsAPI/bin/Debug/net8.0/TransactionsAPI.pdb
-/TransactionsAPI/obj/Debug/net8.0/ref/TransactionsAPI.dll
-/TransactionsAPI/obj/Debug/net8.0/refint/TransactionsAPI.dll
-/TransactionsAPI/obj/Debug/net8.0/apphost.exe
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.csproj.CoreCompileInputs.cache
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.csproj.FileListAbsolute.txt
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.dll
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.genruntimeconfig.cache
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.pdb
-/TransactionsAPI/obj/Debug/net8.0/TransactionsAPI.sourcelink.json
-/.vs/ProjectEvaluation/transactionsapi.strings.v8.bin
-/.vs/TransactionsAPI/DesignTimeBuild/.dtbcache.v2
-/.vs/TransactionsAPI/v17/.futdcache.v2
-/.vs/TransactionsAPI/v17/DocumentLayout.json
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm/
+bin/
+obj/
+out/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm.vspscc
+
+# NuGet Packages
+**/packages/*
+!**/packages/build/
+!**/packages/build/PackageRestore/
+**/packages/*/build/
+**/packages/*/buildTransitive/
+
+# User secrets
+secrets.json
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.pdb
+*.mdb
+*.db
+*.log
+*.vs
+*.swp
+*.tmp
+*.temp
+*.d.ts
+*.scc
+*.cache
+*.publish.xml
+
+# Local development files
+appsettings.Development.json
